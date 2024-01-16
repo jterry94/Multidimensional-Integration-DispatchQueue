@@ -14,6 +14,23 @@
 		A54A85832B5638C5002809F4 /* Multidimensional_IntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54A85822B5638C5002809F4 /* Multidimensional_IntegrationTests.swift */; };
 		A54A858D2B5638C5002809F4 /* Multidimensional_IntegrationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54A858C2B5638C5002809F4 /* Multidimensional_IntegrationUITests.swift */; };
 		A54A858F2B5638C5002809F4 /* Multidimensional_IntegrationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54A858E2B5638C5002809F4 /* Multidimensional_IntegrationUITestsLaunchTests.swift */; };
+		A54A859C2B5638FD002809F4 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54A859B2B5638FD002809F4 /* Operators.swift */; };
+		A54A859D2B5638FD002809F4 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54A859B2B5638FD002809F4 /* Operators.swift */; };
+		A54A859E2B5638FD002809F4 /* Operators.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54A859B2B5638FD002809F4 /* Operators.swift */; };
+		A54A85A02B56395C002809F4 /* Bounding Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54A859F2B56395C002809F4 /* Bounding Box.swift */; };
+		A54A85A12B56395C002809F4 /* Bounding Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54A859F2B56395C002809F4 /* Bounding Box.swift */; };
+		A54A85A22B56395C002809F4 /* Bounding Box.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54A859F2B56395C002809F4 /* Bounding Box.swift */; };
+		A54A85A42B5639CA002809F4 /* ArrayStdDev.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54A85A32B5639CA002809F4 /* ArrayStdDev.swift */; };
+		A54A85A52B5639CA002809F4 /* ArrayStdDev.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54A85A32B5639CA002809F4 /* ArrayStdDev.swift */; };
+		A54A85A62B5639CA002809F4 /* ArrayStdDev.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54A85A32B5639CA002809F4 /* ArrayStdDev.swift */; };
+		A54A85A82B563A32002809F4 /* TestParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54A85A72B563A32002809F4 /* TestParser.swift */; };
+		A54A85A92B563A32002809F4 /* TestParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54A85A72B563A32002809F4 /* TestParser.swift */; };
+		A54A85AA2B563A32002809F4 /* TestParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54A85A72B563A32002809F4 /* TestParser.swift */; };
+		A54A85AC2B563AA9002809F4 /* MonteCarloIntegration.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54A85AB2B563AA9002809F4 /* MonteCarloIntegration.swift */; };
+		A54A85AD2B563AA9002809F4 /* MonteCarloIntegration.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54A85AB2B563AA9002809F4 /* MonteCarloIntegration.swift */; };
+		A54A85AE2B563AA9002809F4 /* MonteCarloIntegration.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54A85AB2B563AA9002809F4 /* MonteCarloIntegration.swift */; };
+		A54A85E62B570F5E002809F4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54A85722B5638C4002809F4 /* ContentView.swift */; };
+		A54A85E72B570F5E002809F4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54A85722B5638C4002809F4 /* ContentView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +62,11 @@
 		A54A85882B5638C5002809F4 /* Multidimensional IntegrationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Multidimensional IntegrationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		A54A858C2B5638C5002809F4 /* Multidimensional_IntegrationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Multidimensional_IntegrationUITests.swift; sourceTree = "<group>"; };
 		A54A858E2B5638C5002809F4 /* Multidimensional_IntegrationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Multidimensional_IntegrationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		A54A859B2B5638FD002809F4 /* Operators.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Operators.swift; sourceTree = "<group>"; };
+		A54A859F2B56395C002809F4 /* Bounding Box.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bounding Box.swift"; sourceTree = "<group>"; };
+		A54A85A32B5639CA002809F4 /* ArrayStdDev.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArrayStdDev.swift; sourceTree = "<group>"; };
+		A54A85A72B563A32002809F4 /* TestParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestParser.swift; sourceTree = "<group>"; };
+		A54A85AB2B563AA9002809F4 /* MonteCarloIntegration.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MonteCarloIntegration.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +119,11 @@
 			children = (
 				A54A85702B5638C4002809F4 /* Multidimensional_IntegrationApp.swift */,
 				A54A85722B5638C4002809F4 /* ContentView.swift */,
+				A54A859B2B5638FD002809F4 /* Operators.swift */,
+				A54A859F2B56395C002809F4 /* Bounding Box.swift */,
+				A54A85A32B5639CA002809F4 /* ArrayStdDev.swift */,
+				A54A85A72B563A32002809F4 /* TestParser.swift */,
+				A54A85AB2B563AA9002809F4 /* MonteCarloIntegration.swift */,
 				A54A85742B5638C5002809F4 /* Assets.xcassets */,
 				A54A85762B5638C5002809F4 /* Multidimensional_Integration.entitlements */,
 				A54A85772B5638C5002809F4 /* Preview Content */,
@@ -259,8 +286,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A54A85A02B56395C002809F4 /* Bounding Box.swift in Sources */,
 				A54A85732B5638C4002809F4 /* ContentView.swift in Sources */,
+				A54A85AC2B563AA9002809F4 /* MonteCarloIntegration.swift in Sources */,
+				A54A85A82B563A32002809F4 /* TestParser.swift in Sources */,
 				A54A85712B5638C4002809F4 /* Multidimensional_IntegrationApp.swift in Sources */,
+				A54A85A42B5639CA002809F4 /* ArrayStdDev.swift in Sources */,
+				A54A859C2B5638FD002809F4 /* Operators.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,7 +300,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A54A85AD2B563AA9002809F4 /* MonteCarloIntegration.swift in Sources */,
+				A54A85A12B56395C002809F4 /* Bounding Box.swift in Sources */,
+				A54A85E62B570F5E002809F4 /* ContentView.swift in Sources */,
+				A54A85A52B5639CA002809F4 /* ArrayStdDev.swift in Sources */,
 				A54A85832B5638C5002809F4 /* Multidimensional_IntegrationTests.swift in Sources */,
+				A54A85A92B563A32002809F4 /* TestParser.swift in Sources */,
+				A54A859D2B5638FD002809F4 /* Operators.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -276,8 +314,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A54A85A22B56395C002809F4 /* Bounding Box.swift in Sources */,
 				A54A858D2B5638C5002809F4 /* Multidimensional_IntegrationUITests.swift in Sources */,
+				A54A85E72B570F5E002809F4 /* ContentView.swift in Sources */,
+				A54A85AE2B563AA9002809F4 /* MonteCarloIntegration.swift in Sources */,
+				A54A85AA2B563A32002809F4 /* TestParser.swift in Sources */,
 				A54A858F2B5638C5002809F4 /* Multidimensional_IntegrationUITestsLaunchTests.swift in Sources */,
+				A54A85A62B5639CA002809F4 /* ArrayStdDev.swift in Sources */,
+				A54A859E2B5638FD002809F4 /* Operators.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
