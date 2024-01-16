@@ -1,0 +1,614 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A54A85712B5638C4002809F4 /* Multidimensional_IntegrationApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54A85702B5638C4002809F4 /* Multidimensional_IntegrationApp.swift */; };
+		A54A85732B5638C4002809F4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54A85722B5638C4002809F4 /* ContentView.swift */; };
+		A54A85752B5638C5002809F4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A54A85742B5638C5002809F4 /* Assets.xcassets */; };
+		A54A85792B5638C5002809F4 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A54A85782B5638C5002809F4 /* Preview Assets.xcassets */; };
+		A54A85832B5638C5002809F4 /* Multidimensional_IntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54A85822B5638C5002809F4 /* Multidimensional_IntegrationTests.swift */; };
+		A54A858D2B5638C5002809F4 /* Multidimensional_IntegrationUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54A858C2B5638C5002809F4 /* Multidimensional_IntegrationUITests.swift */; };
+		A54A858F2B5638C5002809F4 /* Multidimensional_IntegrationUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = A54A858E2B5638C5002809F4 /* Multidimensional_IntegrationUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A54A857F2B5638C5002809F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A54A85652B5638C4002809F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A54A856C2B5638C4002809F4;
+			remoteInfo = "Multidimensional Integration";
+		};
+		A54A85892B5638C5002809F4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A54A85652B5638C4002809F4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A54A856C2B5638C4002809F4;
+			remoteInfo = "Multidimensional Integration";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A54A856D2B5638C4002809F4 /* Multidimensional Integration.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Multidimensional Integration.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A54A85702B5638C4002809F4 /* Multidimensional_IntegrationApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Multidimensional_IntegrationApp.swift; sourceTree = "<group>"; };
+		A54A85722B5638C4002809F4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		A54A85742B5638C5002809F4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		A54A85762B5638C5002809F4 /* Multidimensional_Integration.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Multidimensional_Integration.entitlements; sourceTree = "<group>"; };
+		A54A85782B5638C5002809F4 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		A54A857E2B5638C5002809F4 /* Multidimensional IntegrationTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Multidimensional IntegrationTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A54A85822B5638C5002809F4 /* Multidimensional_IntegrationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Multidimensional_IntegrationTests.swift; sourceTree = "<group>"; };
+		A54A85882B5638C5002809F4 /* Multidimensional IntegrationUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Multidimensional IntegrationUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		A54A858C2B5638C5002809F4 /* Multidimensional_IntegrationUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Multidimensional_IntegrationUITests.swift; sourceTree = "<group>"; };
+		A54A858E2B5638C5002809F4 /* Multidimensional_IntegrationUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Multidimensional_IntegrationUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A54A856A2B5638C4002809F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A54A857B2B5638C5002809F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A54A85852B5638C5002809F4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A54A85642B5638C4002809F4 = {
+			isa = PBXGroup;
+			children = (
+				A54A856F2B5638C4002809F4 /* Multidimensional Integration */,
+				A54A85812B5638C5002809F4 /* Multidimensional IntegrationTests */,
+				A54A858B2B5638C5002809F4 /* Multidimensional IntegrationUITests */,
+				A54A856E2B5638C4002809F4 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A54A856E2B5638C4002809F4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A54A856D2B5638C4002809F4 /* Multidimensional Integration.app */,
+				A54A857E2B5638C5002809F4 /* Multidimensional IntegrationTests.xctest */,
+				A54A85882B5638C5002809F4 /* Multidimensional IntegrationUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A54A856F2B5638C4002809F4 /* Multidimensional Integration */ = {
+			isa = PBXGroup;
+			children = (
+				A54A85702B5638C4002809F4 /* Multidimensional_IntegrationApp.swift */,
+				A54A85722B5638C4002809F4 /* ContentView.swift */,
+				A54A85742B5638C5002809F4 /* Assets.xcassets */,
+				A54A85762B5638C5002809F4 /* Multidimensional_Integration.entitlements */,
+				A54A85772B5638C5002809F4 /* Preview Content */,
+			);
+			path = "Multidimensional Integration";
+			sourceTree = "<group>";
+		};
+		A54A85772B5638C5002809F4 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				A54A85782B5638C5002809F4 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		A54A85812B5638C5002809F4 /* Multidimensional IntegrationTests */ = {
+			isa = PBXGroup;
+			children = (
+				A54A85822B5638C5002809F4 /* Multidimensional_IntegrationTests.swift */,
+			);
+			path = "Multidimensional IntegrationTests";
+			sourceTree = "<group>";
+		};
+		A54A858B2B5638C5002809F4 /* Multidimensional IntegrationUITests */ = {
+			isa = PBXGroup;
+			children = (
+				A54A858C2B5638C5002809F4 /* Multidimensional_IntegrationUITests.swift */,
+				A54A858E2B5638C5002809F4 /* Multidimensional_IntegrationUITestsLaunchTests.swift */,
+			);
+			path = "Multidimensional IntegrationUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A54A856C2B5638C4002809F4 /* Multidimensional Integration */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A54A85922B5638C5002809F4 /* Build configuration list for PBXNativeTarget "Multidimensional Integration" */;
+			buildPhases = (
+				A54A85692B5638C4002809F4 /* Sources */,
+				A54A856A2B5638C4002809F4 /* Frameworks */,
+				A54A856B2B5638C4002809F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Multidimensional Integration";
+			productName = "Multidimensional Integration";
+			productReference = A54A856D2B5638C4002809F4 /* Multidimensional Integration.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A54A857D2B5638C5002809F4 /* Multidimensional IntegrationTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A54A85952B5638C5002809F4 /* Build configuration list for PBXNativeTarget "Multidimensional IntegrationTests" */;
+			buildPhases = (
+				A54A857A2B5638C5002809F4 /* Sources */,
+				A54A857B2B5638C5002809F4 /* Frameworks */,
+				A54A857C2B5638C5002809F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A54A85802B5638C5002809F4 /* PBXTargetDependency */,
+			);
+			name = "Multidimensional IntegrationTests";
+			productName = "Multidimensional IntegrationTests";
+			productReference = A54A857E2B5638C5002809F4 /* Multidimensional IntegrationTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A54A85872B5638C5002809F4 /* Multidimensional IntegrationUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A54A85982B5638C5002809F4 /* Build configuration list for PBXNativeTarget "Multidimensional IntegrationUITests" */;
+			buildPhases = (
+				A54A85842B5638C5002809F4 /* Sources */,
+				A54A85852B5638C5002809F4 /* Frameworks */,
+				A54A85862B5638C5002809F4 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A54A858A2B5638C5002809F4 /* PBXTargetDependency */,
+			);
+			name = "Multidimensional IntegrationUITests";
+			productName = "Multidimensional IntegrationUITests";
+			productReference = A54A85882B5638C5002809F4 /* Multidimensional IntegrationUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A54A85652B5638C4002809F4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1510;
+				LastUpgradeCheck = 1510;
+				TargetAttributes = {
+					A54A856C2B5638C4002809F4 = {
+						CreatedOnToolsVersion = 15.1;
+					};
+					A54A857D2B5638C5002809F4 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = A54A856C2B5638C4002809F4;
+					};
+					A54A85872B5638C5002809F4 = {
+						CreatedOnToolsVersion = 15.1;
+						TestTargetID = A54A856C2B5638C4002809F4;
+					};
+				};
+			};
+			buildConfigurationList = A54A85682B5638C4002809F4 /* Build configuration list for PBXProject "Multidimensional Integration" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A54A85642B5638C4002809F4;
+			productRefGroup = A54A856E2B5638C4002809F4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A54A856C2B5638C4002809F4 /* Multidimensional Integration */,
+				A54A857D2B5638C5002809F4 /* Multidimensional IntegrationTests */,
+				A54A85872B5638C5002809F4 /* Multidimensional IntegrationUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A54A856B2B5638C4002809F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A54A85792B5638C5002809F4 /* Preview Assets.xcassets in Resources */,
+				A54A85752B5638C5002809F4 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A54A857C2B5638C5002809F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A54A85862B5638C5002809F4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A54A85692B5638C4002809F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A54A85732B5638C4002809F4 /* ContentView.swift in Sources */,
+				A54A85712B5638C4002809F4 /* Multidimensional_IntegrationApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A54A857A2B5638C5002809F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A54A85832B5638C5002809F4 /* Multidimensional_IntegrationTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A54A85842B5638C5002809F4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A54A858D2B5638C5002809F4 /* Multidimensional_IntegrationUITests.swift in Sources */,
+				A54A858F2B5638C5002809F4 /* Multidimensional_IntegrationUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A54A85802B5638C5002809F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A54A856C2B5638C4002809F4 /* Multidimensional Integration */;
+			targetProxy = A54A857F2B5638C5002809F4 /* PBXContainerItemProxy */;
+		};
+		A54A858A2B5638C5002809F4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A54A856C2B5638C4002809F4 /* Multidimensional Integration */;
+			targetProxy = A54A85892B5638C5002809F4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A54A85902B5638C5002809F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A54A85912B5638C5002809F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+			};
+			name = Release;
+		};
+		A54A85932B5638C5002809F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Multidimensional Integration/Multidimensional_Integration.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Multidimensional Integration/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jtIIT.Multidimensional-Integration";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A54A85942B5638C5002809F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = "Multidimensional Integration/Multidimensional_Integration.entitlements";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Multidimensional Integration/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSceneManifest_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphoneos*]" = YES;
+				"INFOPLIST_KEY_UILaunchScreen_Generation[sdk=iphonesimulator*]" = YES;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphoneos*]" = UIStatusBarStyleDefault;
+				"INFOPLIST_KEY_UIStatusBarStyle[sdk=iphonesimulator*]" = UIStatusBarStyleDefault;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = "@executable_path/Frameworks";
+				"LD_RUNPATH_SEARCH_PATHS[sdk=macosx*]" = "@executable_path/../Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jtIIT.Multidimensional-Integration";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A54A85962B5638C5002809F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jtIIT.Multidimensional-IntegrationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Multidimensional Integration.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Multidimensional Integration";
+			};
+			name = Debug;
+		};
+		A54A85972B5638C5002809F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jtIIT.Multidimensional-IntegrationTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Multidimensional Integration.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Multidimensional Integration";
+			};
+			name = Release;
+		};
+		A54A85992B5638C5002809F4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jtIIT.Multidimensional-IntegrationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Multidimensional Integration";
+			};
+			name = Debug;
+		};
+		A54A859A2B5638C5002809F4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				MACOSX_DEPLOYMENT_TARGET = 14.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.jtIIT.Multidimensional-IntegrationUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = auto;
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Multidimensional Integration";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A54A85682B5638C4002809F4 /* Build configuration list for PBXProject "Multidimensional Integration" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A54A85902B5638C5002809F4 /* Debug */,
+				A54A85912B5638C5002809F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A54A85922B5638C5002809F4 /* Build configuration list for PBXNativeTarget "Multidimensional Integration" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A54A85932B5638C5002809F4 /* Debug */,
+				A54A85942B5638C5002809F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A54A85952B5638C5002809F4 /* Build configuration list for PBXNativeTarget "Multidimensional IntegrationTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A54A85962B5638C5002809F4 /* Debug */,
+				A54A85972B5638C5002809F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A54A85982B5638C5002809F4 /* Build configuration list for PBXNativeTarget "Multidimensional IntegrationUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A54A85992B5638C5002809F4 /* Debug */,
+				A54A859A2B5638C5002809F4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A54A85652B5638C4002809F4 /* Project object */;
+}
